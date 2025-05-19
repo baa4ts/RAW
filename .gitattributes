@@ -1,0 +1,22 @@
+# Normaliza automáticamente los finales de línea a LF en Git, y convierte a CRLF en Windows si es necesario
+* text=auto
+
+# Fuerza uso de LF para archivos de código fuente (mantiene consistencia)
+*.c    text eol=lf
+*.cpp  text eol=lf
+*.h    text eol=lf
+*.hpp  text eol=lf
+*.js   text eol=lf
+*.ts   text eol=lf
+*.py   text eol=lf
+*.sh   text eol=lf
+
+# Archivos binarios: no se deben modificar los finales de línea
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.pdf  binary
+*.zip  binary
+*.exe  binary
+*.dll  binary
