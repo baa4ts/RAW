@@ -1,1 +1,12 @@
-**/.vscode
+*.exe
+*.txt
+*.vbs
+*.ps1
+*.sln
+*.csproj
+*.vbproj
+*.idea/
+*.vscode/
+*.user
+**/build/
+**/imagenes/
