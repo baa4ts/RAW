@@ -12,6 +12,3 @@ Este repositorio incluye una colección de scripts de PowerShell y otros recurso
   - Versión 2: [Vaciado del archivo de logs](/scripts/Limpieza/LimpiarPowershellConVaciado.ps1)
 
 
-(Get-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\SecureBoot\State").UEFISecureBootEnabled
-
-
